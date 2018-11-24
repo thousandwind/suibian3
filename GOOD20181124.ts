@@ -141,25 +141,25 @@ namespace custom {
     }
     export function setpperMotorL(step: number) {
         switch (step) {
-            case 0: //1010
+            case 3: //1010
                 pins.digitalWritePin(stepperCh0, 1);
                 pins.digitalWritePin(stepperCh1, 0);
                 pins.digitalWritePin(stepperCh2, 0);
                 pins.digitalWritePin(stepperCh3, 0);
                 break;
-            case 1: //0110
+            case 2: //0110
                 pins.digitalWritePin(stepperCh0, 0);
                 pins.digitalWritePin(stepperCh1, 1);
                 pins.digitalWritePin(stepperCh2, 0);
                 pins.digitalWritePin(stepperCh3, 0);
                 break;
-            case 2: //0101
+            case 1: //0101
                 pins.digitalWritePin(stepperCh0, 0);
                 pins.digitalWritePin(stepperCh1, 0);
                 pins.digitalWritePin(stepperCh2, 1);
                 pins.digitalWritePin(stepperCh3, 0);
                 break;
-            case 3: //1001
+            case 0: //1001
                 pins.digitalWritePin(stepperCh0, 0);
                 pins.digitalWritePin(stepperCh1, 0);
                 pins.digitalWritePin(stepperCh2, 0);
