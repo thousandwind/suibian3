@@ -108,20 +108,24 @@ namespace custom {
     //% weight=196 blockGap=30 color=#00BFFF
     export function stepperStep(step: number) {
         let i: number;
+        let j: number;
         if (step > 0) stepperDirection = 1;
         else stepperDirection = 0;
         if (stepperDirection == 1) {
             for (i = 0; i < step; i++) {
+                let j = i;
                 setpperMotorL(i % 4);
-                setpperMotorR(i % 4);
+                setpperMotorR(j % 4);
 
                 basic.pause(stepperSpeed);
             }
         }
         else if (stepperDirection == 0) {
             for (i = -step; i > 0; i--) {
+                let j = i;
                 setpperMotorL(i % 4);
-                setpperMotorR(i % 4);
+                setpperMotorR(j % 4);
+
                 basic.pause(stepperSpeed);
             }
         }
