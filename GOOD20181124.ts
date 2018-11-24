@@ -38,7 +38,7 @@ namespace custom {
      * @param in3 describe parameter here,eg: DigitalPin.P8
 
      */
-    //% blockId=ckmaker_stepperMotorLInitL block="00stepperMotorLInitL |in0 %in0|in1 %in1|in2 %in2|in3 %in3"
+    //% blockId=ckmaker_stepperMotorLInitL block="左侧电机管脚选择与初始化 |in0 %in0|in1 %in1|in2 %in2|in3 %in3"
     //% in0.fieldEditor="gridpicker" in0.fieldOptions.columns=4
     //% in0.fieldOptions.tooltips="false" in0.fieldOptions.width="300"
     //% in1.fieldEditor="gridpicker" in1.fieldOptions.columns=4
@@ -66,7 +66,7 @@ namespace custom {
      * @param in5 describe parameter here, eg: DigitalPin.P1
      * @param in6 describe parameter here,eg: DigitalPin.P2
      * @param in7 describe parameter here,eg: DigitalPin.P8
-    //% blockId=ckmaker_stepperMotorLInitR block="11ystepperMotorLInitR |in4 %in4|in5 %in5|in6 %in6|in7 %in7"
+    //% blockId=ckmaker_stepperMotorLInitR block="右侧电机管脚选择与初始化 |in4 %in4|in5 %in5|in6 %in6|in7 %in7"
     //% in4.fieldEditor="gridpicker" in4.fieldOptions.columns=4
     //% in4.fieldOptions.tooltips="false" in4.fieldOptions.width="300"
     //% in5.fieldEditor="gridpicker" in5.fieldOptions.columns=4
