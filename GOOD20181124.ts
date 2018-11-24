@@ -112,15 +112,16 @@ namespace custom {
         else stepperDirection = 0;
         if (stepperDirection == 1) {
             for (i = 0; i < step; i++) {
-                setpperMotorR(i % 4);
                 setpperMotorL(i % 4);
+                setpperMotorR(i % 4);
+
                 basic.pause(stepperSpeed);
             }
         }
         else if (stepperDirection == 0) {
             for (i = -step; i > 0; i--) {
-                setpperMotorR(i % 4);
                 setpperMotorL(i % 4);
+                setpperMotorR(i % 4);
                 basic.pause(stepperSpeed);
             }
         }
