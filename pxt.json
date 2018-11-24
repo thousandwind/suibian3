@@ -1,0 +1,18 @@
+{
+    "name": "NB1",
+    "version": "0.0.0",
+    "description": "we are NBs",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "GOOD20181124.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false,
+    "license": "NB"
+}
